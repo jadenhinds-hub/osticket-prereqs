@@ -117,8 +117,8 @@ Restart IIS (stop and start the server).
 
 <h3>5. Install osTicket</h3>
 <p>
-<<img width="1440" alt="Screenshot 2025-06-03 at 3 02 20 PM" src="https://github.com/user-attachments/assets/4367d788-bf4a-4b68-a6d3-9c6cbdaa5db9" />
-/>
+<img width="1440" alt="Screenshot 2025-06-03 at 3 02 20 PM" src="https://github.com/user-attachments/assets/4367d788-bf4a-4b68-a6d3-9c6cbdaa5db9" />
+
   <img width="1440" alt="Screenshot 2025-06-03 at 3 04 39 PM" src="https://github.com/user-attachments/assets/42a076e6-2589-4553-b1b7-aa036f5f49b5" />
 
 
@@ -136,8 +136,8 @@ Unzip <code>osTicket-v1.15.8.zip</code> from the installation files and:
 
 <h3>6. Enable PHP Extensions</h3>
 <p>
-<<img width="1440" alt="Screenshot 2025-06-03 at 3 07 00 PM" src="https://github.com/user-attachments/assets/d1e2832f-9ca7-4e53-a0c4-861ecb66d478" />
->
+<img width="1440" alt="Screenshot 2025-06-03 at 3 07 00 PM" src="https://github.com/user-attachments/assets/d1e2832f-9ca7-4e53-a0c4-861ecb66d478" />
+
 </p>
 <p>
 In IIS:
@@ -157,7 +157,7 @@ Refresh the osTicket page to verify the extensions are enabled.
 
 <h3>7. Configure osTicket</h3>
 <p>
-<<img width="1440" alt="Screenshot 2025-06-03 at 3 08 56 PM" src="https://github.com/user-attachments/assets/ec59749f-f63e-49ac-a915-ce0259241623" />
+<img width="1440" alt="Screenshot 2025-06-03 at 3 08 56 PM" src="https://github.com/user-attachments/assets/ec59749f-f63e-49ac-a915-ce0259241623" />
 >
 </p>
 <p>
@@ -172,7 +172,7 @@ Refresh the osTicket page to verify the extensions are enabled.
 <h3>8. Create MySQL Database</h3>
 <p>
 <
-<<img width="1440" alt="Screenshot 2025-06-03 at 3 13 38 PM" src="https://github.com/user-attachments/assets/bec2af07-63d9-4e84-880b-0cec59fd14e0" />
+<img width="1440" alt="Screenshot 2025-06-03 at 3 13 38 PM" src="https://github.com/user-attachments/assets/bec2af07-63d9-4e84-880b-0cec59fd14e0" />
 >
 <img width="1440" alt="Screenshot 2025-06-03 at 3 15 41 PM" src="https://github.com/user-attachments/assets/a91e93d5-9fa8-4f2d-a28b-0629e9eb4128" />
 
@@ -187,7 +187,7 @@ Install HeidiSQL and:
 
 <h3>9. Finalize Installation</h3>
 <p>
-<<img width="1440" alt="Screenshot 2025-06-03 at 3 22 35 PM" src="https://github.com/user-attachments/assets/c1df4fcb-0ebb-4b42-b4b7-86bf520c8a7c" />
+<img width="1440" alt="Screenshot 2025-06-03 at 3 22 35 PM" src="https://github.com/user-attachments/assets/c1df4fcb-0ebb-4b42-b4b7-86bf520c8a7c" />
 >
   <img width="1440" alt="Screenshot 2025-06-03 at 3 18 09 PM" src="https://github.com/user-attachments/assets/0417e4a6-7372-465a-904b-21e775aacc6f" />
 

@@ -59,11 +59,11 @@ Log into the osTicket VM, then copy the osTicket installation files link provide
 <table>
   <tr>
     <td>
-      <<img width="1126" alt="Screenshot 2025-06-03 at 3 48 51 PM" src="https://github.com/user-attachments/assets/1578d5d8-b17d-4d19-8dfe-095dc1969ba9" />
+      <img width="1126" alt="Screenshot 2025-06-03 at 3 48 51 PM" src="https://github.com/user-attachments/assets/1578d5d8-b17d-4d19-8dfe-095dc1969ba9" />
 >
     </td>
     <td>
-      <<img width="1440" alt="Screenshot 2025-06-03 at 3 50 20 PM" src="https://github.com/user-attachments/assets/c9f60b4b-2eaa-41af-907d-ef717b4abf60" />
+      <img width="1440" alt="Screenshot 2025-06-03 at 3 50 20 PM" src="https://github.com/user-attachments/assets/c9f60b4b-2eaa-41af-907d-ef717b4abf60" />
 " />
     </td>
   </tr>

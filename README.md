@@ -30,6 +30,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 **Create a Windows 10 virtual machine in Azure with 4 vCPUs**
 </p>
 <p>
+<p>
+<br>
+  
+</p>
   <img width="1440" alt="Screenshot 2025-06-03 at 3 38 55 PM" src="https://github.com/user-attachments/assets/0a59380a-ba2d-4a2e-9827-99dfcbb4805c" />
   
 </p>
@@ -37,15 +41,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
   </p>
 <p>
-**Login to the VM with Remote Desktop**
+  <br>
+Login to the VM with Remote Desktop
 <p></p>
+<br>
 :Copy the public IP address and use it in Remote Desktop to access the VM. Also, keep note of the username and password you set in the VM as we will access this to login. 
+<br>
 <img width="1440" alt="Screenshot 2025-06-03 at 3 41 43 PM" src="https://github.com/user-attachments/assets/4c36f5f8-6eb7-43a9-a670-06de24b06849" />
 
 </p>
 <p>
 </p>
 <p>
+  <br>
 Log into the osTicket VM, then copy the osTicket installation files link provided above and paste it into the web browser. This will direct you to a ZIP file containing all the necessary files to install osTicket on the VM. Unzip it to the desktop
   
 <img width="1440" alt="Screenshot 2025-06-03 at 2 40 40 PM" src="https://github.com/user-attachments/assets/8d5c8b61-cf57-49e6-a45b-72f529cc424d" />
@@ -64,11 +72,11 @@ Log into the osTicket VM, then copy the osTicket installation files link provide
   <tr>
     <td>
       <img width="1126" alt="Screenshot 2025-06-03 at 3 48 51 PM" src="https://github.com/user-attachments/assets/1578d5d8-b17d-4d19-8dfe-095dc1969ba9" />
->
+
     </td>
     <td>
       <img width="1440" alt="Screenshot 2025-06-03 at 3 50 20 PM" src="https://github.com/user-attachments/assets/c9f60b4b-2eaa-41af-907d-ef717b4abf60" />
-" />
+
     </td>
   </tr>
 </table>
@@ -86,27 +94,35 @@ Log into the osTicket VM, then copy the osTicket installation files link provide
 (From the “osTicket-Installation-Files” folder)
 </p>
 <p>
-  
+  <br>
  **Install Rewrite Module**
  Download: rewrite_amd64_en-US.msi
  (From the “osTicket-Installation-Files” folder)
 </p>
+<img width="1440" alt="Screenshot 2025-06-03 at 2 48 27 PM" src="https://github.com/user-attachments/assets/0b0d46bd-ac8a-44ca-a513-966baece0f18" />
+
 <p>
-  
+  <br>
  **PHP**
 -Create the directory C:\PHP
 -From “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
 
 </p>
 <p>
-  
+  <br>
  **MySQL**
  (Both from “osTicket-Installation-Files” folder)
 Install VC_redist.x86.exe
 Install MySQL 5.5.62 (Typical Setup → Standard Configuration)
 <p>
+  
+</p>
+<img width="1440" alt="Screenshot 2025-06-03 at 2 52 34 PM" src="https://github.com/user-attachments/assets/f612a9b1-0252-4fd9-b38a-1a7375aca943" />
+
+<p>
   </p>
 <p>
+  <br>
   Follow these steps to properly setup MySQL:
   </p>
 <p>
@@ -124,7 +140,7 @@ Install MySQL 5.5.62 (Typical Setup → Standard Configuration)
 <img width="1440" alt="Screenshot 2025-06-03 at 2 56 29 PM" src="https://github.com/user-attachments/assets/e1a9c986-1f23-49a4-a70c-bd3323848280" />
 </p>
 <p>
-Use PHP Manager in IIS to register PHP:
+Register PHP in IIS
 <code>C:\PHP\php-cgi.exe</code><br/>
 Restart IIS (stop and start the server).
 </p>
@@ -142,7 +158,7 @@ Restart IIS (stop and start the server).
 Unzip <code>osTicket-v1.15.8.zip</code> from the installation files and:
 <ol>
   <li>Copy the <code>upload</code> folder into <code>C:\inetpub\wwwroot</code></li>
-  <li>Rename <code>upload</code> to <code>osTicket</code></li>
+  <li>Rename <code>upload</code> to <code>"osTicket"</code></li>
   <li>Restart IIS</li>
   <li>Browse to: <code>http://localhost/osTicket</code></li>
 </ol>
@@ -157,7 +173,7 @@ Unzip <code>osTicket-v1.15.8.zip</code> from the installation files and:
 <p>
 In IIS:
 <ol>
-  <li>Sites → Default → osTicket → PHP Manager</li>
+  <li>Go to Sites → then Default → then osTicket → then PHP Manager</li>
   <li>Enable these extensions:
     <ul>
       <li>php_imap.dll</li>
@@ -218,6 +234,9 @@ Return to the browser setup page:
 </ol>
 You should see a success message and be redirected to the login page:
 <code>http://localhost/osTicket/scp/login.php</code>
+
+<img width="1440" alt="Screenshot 2025-06-03 at 3 16 06 PM" src="https://github.com/user-attachments/assets/9ccfa4e4-c699-487f-875e-afd37e97ab30" />
+
 </p>
 <br />
 

@@ -28,19 +28,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>
 **Create a Windows 10 virtual machine in Azure with 4 vCPUs**
-
+</p>
+<p>
   <img width="1440" alt="Screenshot 2025-06-03 at 3 38 55 PM" src="https://github.com/user-attachments/assets/0a59380a-ba2d-4a2e-9827-99dfcbb4805c" />
   
 </p>
 <p>
 
-  
+  </p>
+<p>
 **Login to the VM with Remote Desktop**
 <p></p>
 :Copy the public IP address and use it in Remote Desktop to access the VM. Also, keep note of the username and password you set in the VM as we will access this to login. 
 <img width="1440" alt="Screenshot 2025-06-03 at 3 41 43 PM" src="https://github.com/user-attachments/assets/4c36f5f8-6eb7-43a9-a670-06de24b06849" />
 
-
+</p>
+<p>
 </p>
 <p>
 Log into the osTicket VM, then copy the osTicket installation files link provided above and paste it into the web browser. This will direct you to a ZIP file containing all the necessary files to install osTicket on the VM. Unzip it to the desktop
@@ -49,7 +52,8 @@ Log into the osTicket VM, then copy the osTicket installation files link provide
 
 </p>
 <br />
-
+</p>
+<p>
 <p>- Now, we'll enable IIS (Internet Information Services) in Windows and make sure CGI is installed.</p>
 <p>- Open the Start Menu, go to Control Panel, and click on Uninstall a program.</p>
 <p>- Then, click Turn Windows features on or off. </p>
@@ -80,21 +84,32 @@ Log into the osTicket VM, then copy the osTicket installation files link provide
 
 * Download: PHPManagerForIIS_V1.5.0.msi 
 (From the “osTicket-Installation-Files” folder)
-
+</p>
+<p>
+  
  **Install Rewrite Module**
  Download: rewrite_amd64_en-US.msi
  (From the “osTicket-Installation-Files” folder)
-
+</p>
+<p>
+  
  **PHP**
 -Create the directory C:\PHP
 -From “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
 
+</p>
+<p>
+  
  **MySQL**
  (Both from “osTicket-Installation-Files” folder)
 Install VC_redist.x86.exe
 Install MySQL 5.5.62 (Typical Setup → Standard Configuration)
 <p>
+  </p>
+<p>
   Follow these steps to properly setup MySQL:
+  </p>
+<p>
 - Typical Setup ->
 - Launch Configuration Wizard (after install) ->
 - Standard Configuration ->
@@ -106,7 +121,7 @@ Install MySQL 5.5.62 (Typical Setup → Standard Configuration)
 
 <h3>4. Configure IIS and PHP</h3>
 <p>
-<<img width="1440" alt="Screenshot 2025-06-03 at 2 56 29 PM" src="https://github.com/user-attachments/assets/e1a9c986-1f23-49a4-a70c-bd3323848280" />>
+<img width="1440" alt="Screenshot 2025-06-03 at 2 56 29 PM" src="https://github.com/user-attachments/assets/e1a9c986-1f23-49a4-a70c-bd3323848280" />
 </p>
 <p>
 Use PHP Manager in IIS to register PHP:
@@ -158,7 +173,7 @@ Refresh the osTicket page to verify the extensions are enabled.
 <h3>7. Configure osTicket</h3>
 <p>
 <img width="1440" alt="Screenshot 2025-06-03 at 3 08 56 PM" src="https://github.com/user-attachments/assets/ec59749f-f63e-49ac-a915-ce0259241623" />
->
+
 </p>
 <p>
 <ol>
@@ -171,9 +186,9 @@ Refresh the osTicket page to verify the extensions are enabled.
 
 <h3>8. Create MySQL Database</h3>
 <p>
-<
+
 <img width="1440" alt="Screenshot 2025-06-03 at 3 13 38 PM" src="https://github.com/user-attachments/assets/bec2af07-63d9-4e84-880b-0cec59fd14e0" />
->
+
 <img width="1440" alt="Screenshot 2025-06-03 at 3 15 41 PM" src="https://github.com/user-attachments/assets/a91e93d5-9fa8-4f2d-a28b-0629e9eb4128" />
 
 <p>
@@ -188,7 +203,7 @@ Install HeidiSQL and:
 <h3>9. Finalize Installation</h3>
 <p>
 <img width="1440" alt="Screenshot 2025-06-03 at 3 22 35 PM" src="https://github.com/user-attachments/assets/c1df4fcb-0ebb-4b42-b4b7-86bf520c8a7c" />
->
+
   <img width="1440" alt="Screenshot 2025-06-03 at 3 18 09 PM" src="https://github.com/user-attachments/assets/0417e4a6-7372-465a-904b-21e775aacc6f" />
 
 >

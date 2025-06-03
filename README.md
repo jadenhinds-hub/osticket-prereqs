@@ -218,11 +218,7 @@ Install HeidiSQL and:
 
 <h3>9. Finalize Installation</h3>
 <p>
-<img width="1440" alt="Screenshot 2025-06-03 at 3 22 35 PM" src="https://github.com/user-attachments/assets/c1df4fcb-0ebb-4b42-b4b7-86bf520c8a7c" />
-
-  <img width="1440" alt="Screenshot 2025-06-03 at 3 18 09 PM" src="https://github.com/user-attachments/assets/0417e4a6-7372-465a-904b-21e775aacc6f" />
-
->
+<br>
 </p>
 <p>
 Return to the browser setup page:
